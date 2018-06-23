@@ -1,0 +1,268 @@
+[zz1749@login-1-1 ~]$ myHW/HW3/hadoop-run.sh
+1
+A C F 0.166667
+B D E F 0.166667
+C A B 0.166667
+D A B C E F 0.166667
+E F 0.166667
+F B C 0.16666718/06/18 00:17:24 INFO fs.TrashPolicyDefault: Moved: 'hdfs://dumbo/user/zz1749/tmp_input' to trash at: hdfs://dumbo/user/zz1749/.Trash/Current/user/zz1749/tmp_input1529295444101
+18/06/18 00:17:24 INFO fs.TrashPolicyDefault: Moved: 'hdfs://dumbo/user/zz1749/tmp' to trash at: hdfs://dumbo/user/zz1749/.Trash/Current/user/zz1749/tmp1529295444141
+packageJobJar: [] [/opt/cloudera/parcels/CDH-5.11.1-1.cdh5.11.1.p0.4/jars/hadoop-streaming-2.6.0-cdh5.11.1.jar] /tmp/streamjob504678352362597202.jar tmpDir=null
+18/06/18 00:17:30 INFO mapred.FileInputFormat: Total input paths to process : 1
+18/06/18 00:17:30 INFO mapreduce.JobSubmitter: number of splits:2
+18/06/18 00:17:30 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1528077494936_1209
+18/06/18 00:17:31 INFO impl.YarnClientImpl: Submitted application application_1528077494936_1209
+18/06/18 00:17:31 INFO mapreduce.Job: The url to track the job: http://babar.es.its.nyu.edu:8088/proxy/application_1528077494936_1209/
+18/06/18 00:17:31 INFO mapreduce.Job: Running job: job_1528077494936_1209
+18/06/18 00:17:38 INFO mapreduce.Job: Job job_1528077494936_1209 running in uber mode : false
+18/06/18 00:17:38 INFO mapreduce.Job:  map 0% reduce 0%
+18/06/18 00:17:42 INFO mapreduce.Job:  map 100% reduce 0%
+18/06/18 00:17:47 INFO mapreduce.Job:  map 100% reduce 100%
+18/06/18 00:17:48 INFO mapreduce.Job: Job job_1528077494936_1209 completed successfully
+18/06/18 00:17:48 INFO mapreduce.Job: Counters: 53
+        File System Counters
+                FILE: Number of bytes read=132
+                FILE: Number of bytes written=406378
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=315
+                HDFS: Number of bytes written=102
+                HDFS: Number of read operations=9
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=2
+                Launched reduce tasks=1
+                Data-local map tasks=2
+                Total time spent by all maps in occupied slots (ms)=16560
+                Total time spent by all reduces in occupied slots (ms)=13446
+                Total time spent by all map tasks (ms)=4140
+                Total time spent by all reduce tasks (ms)=2241
+                Total vcore-milliseconds taken by all map tasks=4140
+                Total vcore-milliseconds taken by all reduce tasks=2241
+                Total megabyte-milliseconds taken by all map tasks=16957440
+                Total megabyte-milliseconds taken by all reduce tasks=13768704
+        Map-Reduce Framework
+                Map input records=6
+                Map output records=15
+                Map output bytes=210
+                Map output materialized bytes=167
+                Input split bytes=172
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=15
+                Reduce shuffle bytes=167
+                Reduce input records=15
+                Reduce output records=6
+                Spilled Records=30
+                Shuffled Maps =2
+                Failed Shuffles=0
+                Merged Map outputs=2
+                GC time elapsed (ms)=124
+                CPU time spent (ms)=2280
+                Physical memory (bytes) snapshot=1422790656
+                Virtual memory (bytes) snapshot=11190005760
+                Total committed heap usage (bytes)=3588227072
+                Peak Map Physical memory (bytes)=545976320
+                Peak Map Virtual memory (bytes)=3726680064
+                Peak Reduce Physical memory (bytes)=345731072
+                Peak Reduce Virtual memory (bytes)=3737100288
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=143
+        File Output Format Counters
+                Bytes Written=102
+18/06/18 00:17:48 INFO streaming.StreamJob: Output directory: hdfs://dumbo/user/zz1749/tmp
+rm: cannot remove `tmp/pr0': No such file or directory
+A C F 0.116667
+C A B 0.200001
+B D E F 0.200001
+E F 0.088889
+D A B C E F 0.055556
+F B C 0.338890
+2
+A C F 0.116667
+C A B 0.200001
+B D E F 0.200001
+E F 0.088889
+D A B C E F 0.055556
+F B C 0.338890
+18/06/18 00:17:52 INFO fs.TrashPolicyDefault: Moved: 'hdfs://dumbo/user/zz1749/tmp_input' to trash at: hdfs://dumbo/user/zz1749/.Trash/Current/user/zz1749/tmp_input1529295472481
+18/06/18 00:17:52 INFO fs.TrashPolicyDefault: Moved: 'hdfs://dumbo/user/zz1749/tmp' to trash at: hdfs://dumbo/user/zz1749/.Trash/Current/user/zz1749/tmp1529295472516
+packageJobJar: [] [/opt/cloudera/parcels/CDH-5.11.1-1.cdh5.11.1.p0.4/jars/hadoop-streaming-2.6.0-cdh5.11.1.jar] /tmp/streamjob4710034804386453026.jar tmpDir=null
+18/06/18 00:17:57 INFO mapred.FileInputFormat: Total input paths to process : 1
+18/06/18 00:17:57 INFO mapreduce.JobSubmitter: number of splits:2
+18/06/18 00:17:58 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1528077494936_1210
+18/06/18 00:17:58 INFO impl.YarnClientImpl: Submitted application application_1528077494936_1210
+18/06/18 00:17:58 INFO mapreduce.Job: The url to track the job: http://babar.es.its.nyu.edu:8088/proxy/application_1528077494936_1210/
+18/06/18 00:17:58 INFO mapreduce.Job: Running job: job_1528077494936_1210
+18/06/18 00:18:02 INFO mapreduce.Job: Job job_1528077494936_1210 running in uber mode : false
+18/06/18 00:18:02 INFO mapreduce.Job:  map 0% reduce 0%
+18/06/18 00:18:06 INFO mapreduce.Job:  map 100% reduce 0%
+18/06/18 00:18:11 INFO mapreduce.Job:  map 100% reduce 100%
+18/06/18 00:18:12 INFO mapreduce.Job: Job job_1528077494936_1210 completed successfully
+18/06/18 00:18:12 INFO mapreduce.Job: Counters: 53
+        File System Counters
+                FILE: Number of bytes read=144
+                FILE: Number of bytes written=406402
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=325
+                HDFS: Number of bytes written=102
+                HDFS: Number of read operations=9
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=2
+                Launched reduce tasks=1
+                Data-local map tasks=2
+                Total time spent by all maps in occupied slots (ms)=16072
+                Total time spent by all reduces in occupied slots (ms)=12972
+                Total time spent by all map tasks (ms)=4018
+                Total time spent by all reduce tasks (ms)=2162
+                Total vcore-milliseconds taken by all map tasks=4018
+                Total vcore-milliseconds taken by all reduce tasks=2162
+                Total megabyte-milliseconds taken by all map tasks=16457728
+                Total megabyte-milliseconds taken by all reduce tasks=13283328
+        Map-Reduce Framework
+                Map input records=6
+                Map output records=15
+                Map output bytes=210
+                Map output materialized bytes=176
+                Input split bytes=172
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=15
+                Reduce shuffle bytes=176
+                Reduce input records=15
+                Reduce output records=6
+                Spilled Records=30
+                Shuffled Maps =2
+                Failed Shuffles=0
+                Merged Map outputs=2
+                GC time elapsed (ms)=140
+                CPU time spent (ms)=2250
+                Physical memory (bytes) snapshot=1413775360
+                Virtual memory (bytes) snapshot=11187773440
+                Total committed heap usage (bytes)=3578265600
+                Peak Map Physical memory (bytes)=533454848
+                Peak Map Virtual memory (bytes)=3726761984
+                Peak Reduce Physical memory (bytes)=350310400
+                Peak Reduce Virtual memory (bytes)=3735465984
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=153
+        File Output Format Counters
+                Bytes Written=102
+18/06/18 00:18:12 INFO streaming.StreamJob: Output directory: hdfs://dumbo/user/zz1749/tmp
+A C F 0.111112
+C A B 0.238890
+B D E F 0.280557
+E F 0.077778
+D A B C E F 0.066667
+F B C 0.225001
+3
+A C F 0.111112
+C A B 0.238890
+B D E F 0.280557
+E F 0.077778
+D A B C E F 0.066667
+F B C 0.225001
+18/06/18 00:18:16 INFO fs.TrashPolicyDefault: Moved: 'hdfs://dumbo/user/zz1749/tmp_input' to trash at: hdfs://dumbo/user/zz1749/.Trash/Current/user/zz1749/tmp_input1529295496212
+18/06/18 00:18:16 INFO fs.TrashPolicyDefault: Moved: 'hdfs://dumbo/user/zz1749/tmp' to trash at: hdfs://dumbo/user/zz1749/.Trash/Current/user/zz1749/tmp1529295496266
+packageJobJar: [] [/opt/cloudera/parcels/CDH-5.11.1-1.cdh5.11.1.p0.4/jars/hadoop-streaming-2.6.0-cdh5.11.1.jar] /tmp/streamjob5716636818810472967.jar tmpDir=null
+18/06/18 00:18:21 INFO mapred.FileInputFormat: Total input paths to process : 1
+18/06/18 00:18:21 INFO mapreduce.JobSubmitter: number of splits:2
+18/06/18 00:18:22 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1528077494936_1211
+18/06/18 00:18:22 INFO impl.YarnClientImpl: Submitted application application_1528077494936_1211
+18/06/18 00:18:22 INFO mapreduce.Job: The url to track the job: http://babar.es.its.nyu.edu:8088/proxy/application_1528077494936_1211/
+18/06/18 00:18:22 INFO mapreduce.Job: Running job: job_1528077494936_1211
+18/06/18 00:18:26 INFO mapreduce.Job: Job job_1528077494936_1211 running in uber mode : false
+18/06/18 00:18:26 INFO mapreduce.Job:  map 0% reduce 0%
+18/06/18 00:18:31 INFO mapreduce.Job:  map 50% reduce 0%
+18/06/18 00:18:33 INFO mapreduce.Job:  map 100% reduce 0%
+18/06/18 00:18:49 INFO mapreduce.Job:  map 100% reduce 67%
+18/06/18 00:19:33 INFO mapreduce.Job:  map 100% reduce 100%
+18/06/18 00:19:34 INFO mapreduce.Job: Job job_1528077494936_1211 completed successfully
+18/06/18 00:19:34 INFO mapreduce.Job: Counters: 53
+        File System Counters
+                FILE: Number of bytes read=145
+                FILE: Number of bytes written=406404
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=325
+                HDFS: Number of bytes written=102
+                HDFS: Number of read operations=9
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=2
+                Launched reduce tasks=1
+                Data-local map tasks=2
+                Total time spent by all maps in occupied slots (ms)=27960
+                Total time spent by all reduces in occupied slots (ms)=344544
+                Total time spent by all map tasks (ms)=6990
+                Total time spent by all reduce tasks (ms)=57424
+                Total vcore-milliseconds taken by all map tasks=6990
+                Total vcore-milliseconds taken by all reduce tasks=57424
+                Total megabyte-milliseconds taken by all map tasks=28631040
+                Total megabyte-milliseconds taken by all reduce tasks=352813056
+        Map-Reduce Framework
+                Map input records=6
+                Map output records=15
+                Map output bytes=210
+                Map output materialized bytes=177
+                Input split bytes=172
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=15
+                Reduce shuffle bytes=177
+                Reduce input records=15
+                Reduce output records=6
+                Spilled Records=30
+                Shuffled Maps =2
+                Failed Shuffles=0
+                Merged Map outputs=2
+                GC time elapsed (ms)=193
+                CPU time spent (ms)=3510
+                Physical memory (bytes) snapshot=1454284800
+                Virtual memory (bytes) snapshot=11200163840
+                Total committed heap usage (bytes)=3590324224
+                Peak Map Physical memory (bytes)=541782016
+                Peak Map Virtual memory (bytes)=3731607552
+                Peak Reduce Physical memory (bytes)=375836672
+                Peak Reduce Virtual memory (bytes)=3865436160
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=153
+        File Output Format Counters
+                Bytes Written=102
+18/06/18 00:19:34 INFO streaming.StreamJob: Output directory: hdfs://dumbo/user/zz1749/tmp
+A C F 0.132778
+C A B 0.181390
+B D E F 0.245279
+E F 0.106852
+D A B C E F 0.093519
+F B C 0.240186
+[zz1749@login-1-1 ~]$
