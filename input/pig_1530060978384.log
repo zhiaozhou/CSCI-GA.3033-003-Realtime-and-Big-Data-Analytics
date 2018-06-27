@@ -1,0 +1,875 @@
+Pig Stack Trace
+---------------
+ERROR 1000: Error during parsing. Encountered " <IDENTIFIER> "DISTINCT "" at line 7, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+
+org.apache.pig.tools.pigscript.parser.ParseException: Encountered " <IDENTIFIER> "DISTINCT "" at line 7, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.generateParseException(PigScriptParser.java:1428)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.handle_invalid_command(PigScriptParser.java:1236)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:710)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1000: Error during parsing. Encountered " <IDENTIFIER> "DISTINCT "" at line 1, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+
+org.apache.pig.tools.pigscript.parser.ParseException: Encountered " <IDENTIFIER> "DISTINCT "" at line 1, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.generateParseException(PigScriptParser.java:1428)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.handle_invalid_command(PigScriptParser.java:1236)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:710)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1070: Could not resolve SET using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+
+Failed to parse: Pig script failed to parse: 
+<line 5, column 33> Failed to generate logical plan. Nested exception: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve SET using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:196)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 5, column 33> Failed to generate logical plan. Nested exception: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve SET using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.parser.LogicalPlanBuilder.buildUDF(LogicalPlanBuilder.java:1507)
+	at org.apache.pig.parser.LogicalPlanGenerator.func_eval(LogicalPlanGenerator.java:9372)
+	at org.apache.pig.parser.LogicalPlanGenerator.projectable_expr(LogicalPlanGenerator.java:11051)
+	at org.apache.pig.parser.LogicalPlanGenerator.var_expr(LogicalPlanGenerator.java:10810)
+	at org.apache.pig.parser.LogicalPlanGenerator.expr(LogicalPlanGenerator.java:10159)
+	at org.apache.pig.parser.LogicalPlanGenerator.flatten_generated_item(LogicalPlanGenerator.java:7488)
+	at org.apache.pig.parser.LogicalPlanGenerator.generate_clause(LogicalPlanGenerator.java:17590)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_plan(LogicalPlanGenerator.java:15982)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_clause(LogicalPlanGenerator.java:15849)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1933)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:188)
+	... 16 more
+Caused by: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve SET using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.impl.PigContext.resolveClassName(PigContext.java:653)
+	at org.apache.pig.impl.PigContext.getClassForAlias(PigContext.java:769)
+	at org.apache.pig.parser.LogicalPlanBuilder.buildUDF(LogicalPlanBuilder.java:1504)
+	... 29 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1000: Error during parsing. Encountered " ";" "; "" at line 1, column 10.
+Was expecting one of:
+    "cat" ...
+    "clear" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "using" ...
+    "as" ...
+    "rm" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    <IDENTIFIER> ...
+    <PATH> ...
+    <QUOTEDSTRING> ...
+    
+
+org.apache.pig.tools.pigscript.parser.ParseException: Encountered " ";" "; "" at line 1, column 10.
+Was expecting one of:
+    "cat" ...
+    "clear" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "using" ...
+    "as" ...
+    "rm" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    <IDENTIFIER> ...
+    <PATH> ...
+    <QUOTEDSTRING> ...
+    
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.generateParseException(PigScriptParser.java:1428)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.jj_consume_token(PigScriptParser.java:1354)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.GetValue(PigScriptParser.java:1120)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:692)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1070: Could not resolve SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+
+Failed to parse: Pig script failed to parse: 
+<line 9, column 31> Failed to generate logical plan. Nested exception: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:196)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 9, column 31> Failed to generate logical plan. Nested exception: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.parser.LogicalPlanBuilder.buildUDF(LogicalPlanBuilder.java:1507)
+	at org.apache.pig.parser.LogicalPlanGenerator.func_eval(LogicalPlanGenerator.java:9372)
+	at org.apache.pig.parser.LogicalPlanGenerator.projectable_expr(LogicalPlanGenerator.java:11051)
+	at org.apache.pig.parser.LogicalPlanGenerator.var_expr(LogicalPlanGenerator.java:10810)
+	at org.apache.pig.parser.LogicalPlanGenerator.expr(LogicalPlanGenerator.java:10159)
+	at org.apache.pig.parser.LogicalPlanGenerator.flatten_generated_item(LogicalPlanGenerator.java:7488)
+	at org.apache.pig.parser.LogicalPlanGenerator.generate_clause(LogicalPlanGenerator.java:17590)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_plan(LogicalPlanGenerator.java:15982)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_clause(LogicalPlanGenerator.java:15849)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1933)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:188)
+	... 16 more
+Caused by: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.impl.PigContext.resolveClassName(PigContext.java:653)
+	at org.apache.pig.impl.PigContext.getClassForAlias(PigContext.java:769)
+	at org.apache.pig.parser.LogicalPlanBuilder.buildUDF(LogicalPlanBuilder.java:1504)
+	... 29 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1070: Could not resolve datafu.pig.sets.SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+
+Failed to parse: Pig script failed to parse: 
+<line 9, column 31> Failed to generate logical plan. Nested exception: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve datafu.pig.sets.SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:196)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 9, column 31> Failed to generate logical plan. Nested exception: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve datafu.pig.sets.SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.parser.LogicalPlanBuilder.buildUDF(LogicalPlanBuilder.java:1507)
+	at org.apache.pig.parser.LogicalPlanGenerator.func_eval(LogicalPlanGenerator.java:9372)
+	at org.apache.pig.parser.LogicalPlanGenerator.projectable_expr(LogicalPlanGenerator.java:11051)
+	at org.apache.pig.parser.LogicalPlanGenerator.var_expr(LogicalPlanGenerator.java:10810)
+	at org.apache.pig.parser.LogicalPlanGenerator.expr(LogicalPlanGenerator.java:10159)
+	at org.apache.pig.parser.LogicalPlanGenerator.flatten_generated_item(LogicalPlanGenerator.java:7488)
+	at org.apache.pig.parser.LogicalPlanGenerator.generate_clause(LogicalPlanGenerator.java:17590)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_plan(LogicalPlanGenerator.java:15982)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_clause(LogicalPlanGenerator.java:15849)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1933)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:188)
+	... 16 more
+Caused by: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve datafu.pig.sets.SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.impl.PigContext.resolveClassName(PigContext.java:653)
+	at org.apache.pig.impl.PigContext.getClassForAlias(PigContext.java:769)
+	at org.apache.pig.parser.LogicalPlanBuilder.buildUDF(LogicalPlanBuilder.java:1504)
+	... 29 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1070: Could not resolve datafu.pig.sets.SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+
+Failed to parse: Pig script failed to parse: 
+<line 10, column 31> Failed to generate logical plan. Nested exception: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve datafu.pig.sets.SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:196)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: 
+<line 10, column 31> Failed to generate logical plan. Nested exception: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve datafu.pig.sets.SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.parser.LogicalPlanBuilder.buildUDF(LogicalPlanBuilder.java:1507)
+	at org.apache.pig.parser.LogicalPlanGenerator.func_eval(LogicalPlanGenerator.java:9372)
+	at org.apache.pig.parser.LogicalPlanGenerator.projectable_expr(LogicalPlanGenerator.java:11051)
+	at org.apache.pig.parser.LogicalPlanGenerator.var_expr(LogicalPlanGenerator.java:10810)
+	at org.apache.pig.parser.LogicalPlanGenerator.expr(LogicalPlanGenerator.java:10159)
+	at org.apache.pig.parser.LogicalPlanGenerator.flatten_generated_item(LogicalPlanGenerator.java:7488)
+	at org.apache.pig.parser.LogicalPlanGenerator.generate_clause(LogicalPlanGenerator.java:17590)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_plan(LogicalPlanGenerator.java:15982)
+	at org.apache.pig.parser.LogicalPlanGenerator.foreach_clause(LogicalPlanGenerator.java:15849)
+	at org.apache.pig.parser.LogicalPlanGenerator.op_clause(LogicalPlanGenerator.java:1933)
+	at org.apache.pig.parser.LogicalPlanGenerator.general_statement(LogicalPlanGenerator.java:1102)
+	at org.apache.pig.parser.LogicalPlanGenerator.statement(LogicalPlanGenerator.java:560)
+	at org.apache.pig.parser.LogicalPlanGenerator.query(LogicalPlanGenerator.java:421)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:188)
+	... 16 more
+Caused by: org.apache.pig.backend.executionengine.ExecException: ERROR 1070: Could not resolve datafu.pig.sets.SetUnion using imports: [, java.lang., org.apache.pig.builtin., org.apache.pig.impl.builtin.]
+	at org.apache.pig.impl.PigContext.resolveClassName(PigContext.java:653)
+	at org.apache.pig.impl.PigContext.getClassForAlias(PigContext.java:769)
+	at org.apache.pig.parser.LogicalPlanBuilder.buildUDF(LogicalPlanBuilder.java:1504)
+	... 29 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 14, column 57>  mismatched input ',' expecting RIGHT_PAREN
+
+Failed to parse: <line 14, column 57>  mismatched input ',' expecting RIGHT_PAREN
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:241)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:179)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 14, column 57>  mismatched input ',' expecting RIGHT_PAREN
+
+Failed to parse: <line 14, column 57>  mismatched input ',' expecting RIGHT_PAREN
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:241)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:179)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 14, column 78> Invalid field projection. Projected field [line] does not exist in schema: rank_Words:long,text:bag{tuple_of_tokens:tuple(token:chararray)}.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 14, column 78> Invalid field projection. Projected field [line] does not exist in schema: rank_Words:long,text:bag{tuple_of_tokens:tuple(token:chararray)}.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1728)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 14, column 78> Invalid field projection. Projected field [line] does not exist in schema: rank_Words:long,text:bag{tuple_of_tokens:tuple(token:chararray)}.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 14, column 78> Invalid field projection. Projected field [line] does not exist in schema: rank_Words:long,text:bag{tuple_of_tokens:tuple(token:chararray)}.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1728)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 15, column 78> Invalid field projection. Projected field [line] does not exist in schema: rank_Words:long,text:bag{tuple_of_tokens:tuple(token:chararray)}.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 15, column 78> Invalid field projection. Projected field [line] does not exist in schema: rank_Words:long,text:bag{tuple_of_tokens:tuple(token:chararray)}.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1728)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 15, column 31>  Syntax error, unexpected symbol at or near 'rank_Words'
+
+Failed to parse: <line 15, column 31>  Syntax error, unexpected symbol at or near 'rank_Words'
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:241)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:179)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 15, column 69> Invalid field projection. Projected field [line] does not exist in schema: rank_Words:long,text:bag{tuple_of_tokens:tuple(token:chararray)}.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 15, column 69> Invalid field projection. Projected field [line] does not exist in schema: rank_Words:long,text:bag{tuple_of_tokens:tuple(token:chararray)}.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:142)
+	at org.apache.pig.newplan.logical.relational.LOInnerLoad.accept(LOInnerLoad.java:128)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:124)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1728)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1045: 
+<line 15, column 42> Could not infer the matching function for org.apache.pig.builtin.TOKENIZE as multiple or none of them fit. Please use an explicit cast.
+
+org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1059: 
+<line 15, column 8> Problem while reconciling output schema of ForEach
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.throwTypeCheckerException(TypeCheckingRelVisitor.java:142)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:182)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1737)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1045: 
+<line 15, column 42> Could not infer the matching function for org.apache.pig.builtin.TOKENIZE as multiple or none of them fit. Please use an explicit cast.
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingExpVisitor.visit(TypeCheckingExpVisitor.java:788)
+	at org.apache.pig.newplan.logical.expression.UserFuncExpression.accept(UserFuncExpression.java:112)
+	at org.apache.pig.newplan.ReverseDependencyOrderWalker.walk(ReverseDependencyOrderWalker.java:70)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visitExpressionPlan(TypeCheckingRelVisitor.java:191)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:157)
+	at org.apache.pig.newplan.logical.relational.LOGenerate.accept(LOGenerate.java:246)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:174)
+	... 20 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1045: 
+<line 15, column 42> Could not infer the matching function for org.apache.pig.builtin.TOKENIZE as multiple or none of them fit. Please use an explicit cast.
+
+org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1059: 
+<line 15, column 8> Problem while reconciling output schema of ForEach
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.throwTypeCheckerException(TypeCheckingRelVisitor.java:142)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:182)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1737)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1045: 
+<line 15, column 42> Could not infer the matching function for org.apache.pig.builtin.TOKENIZE as multiple or none of them fit. Please use an explicit cast.
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingExpVisitor.visit(TypeCheckingExpVisitor.java:788)
+	at org.apache.pig.newplan.logical.expression.UserFuncExpression.accept(UserFuncExpression.java:112)
+	at org.apache.pig.newplan.ReverseDependencyOrderWalker.walk(ReverseDependencyOrderWalker.java:70)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visitExpressionPlan(TypeCheckingRelVisitor.java:191)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:157)
+	at org.apache.pig.newplan.logical.relational.LOGenerate.accept(LOGenerate.java:246)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:174)
+	... 20 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1045: 
+<line 15, column 31> Could not infer the matching function for org.apache.pig.builtin.TOKENIZE as multiple or none of them fit. Please use an explicit cast.
+
+org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1059: 
+<line 15, column 8> Problem while reconciling output schema of ForEach
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.throwTypeCheckerException(TypeCheckingRelVisitor.java:142)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:182)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1737)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1045: 
+<line 15, column 31> Could not infer the matching function for org.apache.pig.builtin.TOKENIZE as multiple or none of them fit. Please use an explicit cast.
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingExpVisitor.visit(TypeCheckingExpVisitor.java:788)
+	at org.apache.pig.newplan.logical.expression.UserFuncExpression.accept(UserFuncExpression.java:112)
+	at org.apache.pig.newplan.ReverseDependencyOrderWalker.walk(ReverseDependencyOrderWalker.java:70)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visitExpressionPlan(TypeCheckingRelVisitor.java:191)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:157)
+	at org.apache.pig.newplan.logical.relational.LOGenerate.accept(LOGenerate.java:246)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:174)
+	... 20 more
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1045: 
+<line 15, column 31> Could not infer the matching function for org.apache.pig.builtin.TOKENIZE as multiple or none of them fit. Please use an explicit cast.
+
+org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1059: 
+<line 15, column 8> Problem while reconciling output schema of ForEach
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.throwTypeCheckerException(TypeCheckingRelVisitor.java:142)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:182)
+	at org.apache.pig.newplan.logical.relational.LOForEach.accept(LOForEach.java:87)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1737)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:547)
+	at org.apache.pig.Main.main(Main.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+Caused by: org.apache.pig.impl.logicalLayer.validators.TypeCheckerException: ERROR 1045: 
+<line 15, column 31> Could not infer the matching function for org.apache.pig.builtin.TOKENIZE as multiple or none of them fit. Please use an explicit cast.
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingExpVisitor.visit(TypeCheckingExpVisitor.java:788)
+	at org.apache.pig.newplan.logical.expression.UserFuncExpression.accept(UserFuncExpression.java:112)
+	at org.apache.pig.newplan.ReverseDependencyOrderWalker.walk(ReverseDependencyOrderWalker.java:70)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visitExpressionPlan(TypeCheckingRelVisitor.java:191)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:157)
+	at org.apache.pig.newplan.logical.relational.LOGenerate.accept(LOGenerate.java:246)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.visitor.TypeCheckingRelVisitor.visit(TypeCheckingRelVisitor.java:174)
+	... 20 more
+================================================================================

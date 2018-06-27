@@ -1,0 +1,12 @@
+records = LOAD 'class4/pig_input.txt' USING TextLoader() AS (text:chararray);
+prepared_words = LOAD 'class4/prepared_words.txt' USING PigStorage(',') AS (word:chararray,count:int);
+Words = FOREACH records GENERATE TOKENIZE(REPLACE(text,'([^a-zA-Z\\s]+)',' ')) AS text;
+Words = RANK Words;
+Words = FOREACH Words GENERATE rank_Words,FLATTEN(text);
+Grouped = FOREACH(GROUP Words BY (LOWER(text::token),rank_Words)) GENERATE FLATTEN(group) AS (word,line);
+Word_Counts = FOREACH (GROUP Grouped BY word) GENERATE group,COUNT(Grouped.line);  
+Word_Counts = FILTER Word_Counts BY group in ('chicago','dec','java','hackathon');
+words = FOREACH prepared_words GENERATE LOWER(word) as low,word,count; 
+RESULT = FOREACH (JOIN Word_Counts by group RIGHT, words by low) GENERATE $3,($1 is NULL ? 0 : $1);  
+STORE RESULT INTO 'class4/output';
+DUMP RESULT;
